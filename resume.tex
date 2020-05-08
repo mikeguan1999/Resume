@@ -39,8 +39,8 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
 
 %-------------------------
 % Custom commands
@@ -62,10 +62,10 @@
 
 \renewcommand{\labelitemii}{$\circ$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]\vspace{-1pt}}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}\vspace{-5pt}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
 
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -128,7 +128,7 @@ mhg99@cornell.edu & https://github.com/mikeguan1999\\
       {Computer Science Instructor}{May 2019 - Sep. 2019}
 \setstretch{0.8}
 
-\, \small\underline{{\textbf{Courses Taught:}}}
+\, \small\underline{{\textbf{Courses Taught:}}}\vspace{-5pt}
 \normalsize
       \resumeItemListStart
         \resumeItem{Intro to Python and Artificial Intelligence}
@@ -159,10 +159,12 @@ mhg99@cornell.edu & https://github.com/mikeguan1999\\
 	{ Implemented in a group of three people a Java program to simulate artificial life and behaviors. This project included the construction of an interpreted language to help create ``critters'' with different traits and behaviors and a graphical user interface to help visualize and interact with the critter world. }
     
     \resumeSubItem{Pok\'emon Project} 
-      {Created a program in Python that utilizes machine learning algorithms to predict the type of a Pok\'emon based on its base statistics (Attack, Defense, HP, Speed, etc.)}
+      {Created a program in Python that utilizes machine learning algorithms to predict the type of a Pok\'emon based on its base statistics (Attack, Defense, HP, Speed, etc.) By using a Support Vector Machine and a Random Forest Classifier, the model was able to correctly classify the type approximately 26.8\% of the time.}
 
- \resumeSubItem{Chess Game}
-      {Implemented a chess application using functional programming(OCaml) and the Graphics GUI package to allow two human players to play the standard game of chess.}
+ \resumeSubItem{Chess Game AI}
+      {Implemented a chess application using functional programming(OCaml) and the Graphics GUI package to allow two human players to play the standard game of chess. Extended this game with an AI that uses a minimax game tree search algorithm enhanced using alpha-beta pruning}
+
+
   \resumeSubHeadingListEnd
 
 
@@ -171,8 +173,8 @@ mhg99@cornell.edu & https://github.com/mikeguan1999\\
   \resumeSubHeadingListStart
 
     \resumeSubItem{Languages}
-      {Python, Java, C, C++, OCaml, Javascript, HTML, CSS}
-    \resumeSubItem{Tools}
+      {Python, Java, C, C++, OCaml, Javascript, HTML, CSS, SQL}
+    \resumeSubItem{Tools} 
       {CAD Software, Multisim, Unix, Git, \LaTeX, JSON, Blender, Verilog, Arduino, PyQt, Pandas}
   \resumeSubHeadingListEnd
 
