@@ -1,6 +1,6 @@
 % Michael Resume
 
-\documentclass[letterpaper,10pt]{article}
+\documentclass[letterpaper,2pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -21,10 +21,10 @@
 % \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.4in}
-\addtolength{\evensidemargin}{-0.4in}
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.6in}
+\addtolength{\topmargin}{-.5in}
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
@@ -35,8 +35,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-10pt}
-  %\scshape\raggedright\textbf
+  \vspace{-10pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
 
 %-------------------------
@@ -59,7 +58,7 @@
 \renewcommand{\labelitemii}{$\circ$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{description}[leftmargin=*]\vspace{-1pt}}
-\newcommand{\resumeSubHeadingListEnd}{\end{description}\vspace{7pt}}
+\newcommand{\resumeSubHeadingListEnd}{\end{description}\vspace{1pt}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-15pt}}
 
@@ -72,27 +71,24 @@
 %----------HEADING-----------------
 \centerline{\textbf{\LARGE Michael Guan}}
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \small{607-379-7339} & \small{https://www.linkedin.com/in/mikeguan1999}\\
-\small{mhg99@cornell.edu} & \small{https://github.com/mikeguan1999}\\
+  607-379-7339 & {https://www.linkedin.com/in/mikeguan1999}\\
+mhg99@cornell.edu & https://github.com/mikeguan1999\\
 \end{tabular*}
 
 
 %-----------EDUCATION-----------------
-\section{\textbf{EDUCATION}}
+\section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Cornell University}
       {College of Engineering}
       {Ithaca, NY}
-      {Aug. 2018 - Present}
+      {Aug. 2018 - May 2022}
       
       \vspace{-7pt}
-      \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-        Bachelor's of Science, Computer Science & \textit{Expected May 2022}\\
-        Double Minor in Electrical/Computer Engineering and Game Design \\
-        Cumulative GPA: 3.87; Dean's List(All Semesters)
-      \end{tabular*}\vspace{-5pt}
-    
+      Bachelor's of Science, Computer Science \\
+      Double Minor in Electrical/Computer Engineering and Game Design \\
+      Cumulative GPA: 3.87; Dean's List(All Semesters)
 
       \vspace{-10pt}
 
@@ -105,15 +101,15 @@
 
 \resumeSubHeadingListEnd
 
-\section{\textbf{RELEVANT COURSES}}
+\section{Relevant Courses}
 
 \vspace{3pt}
 
-\textbf{Computer Science}: Intro to Computing Using Python, C++ Programming, Honors Object Oriented Design and Data Structures, Discrete Structures, Functional Programming, Programming Languages and Logic, Intro to Database Systems, Operating Systems, Intro to Artificial Intelligence, Intro to Analysis of Algorithms
+\textbf{Computer Science}: CS 1110: Intro to Computing Using Python, CS 2112: Honors Object Oriented Programming, CS 2800: Discrete Structures, CS 3110: Functional Programming, CS 4700: Intro to Artificial Intelligence, CS 4820: Intro to Analysis of Algorithms
 
 \vspace{3pt}
 
-\textbf{Electrical and Computer Engineering}: Digital Logic and Computer Organization, Computer Systems Programming, Embedded Systems
+\textbf{Electrical and Computer Engineering}: ECE 2300: Digital Logic and Computer Organization, ECE 2400: Computer Systems Programming, CS 3420: Embedded Systems
 %-----------Courses-----------------
 % \section{Relevant Courses}
 %    \resumeSubHeadingListStart
@@ -128,7 +124,7 @@
 
 
 %-----------EXPERIENCE-----------------
-\section{\textbf{PROFESSIONAL EXPERIENCE}}
+\section{Professional Experience}
 \resumeSubHeadingListStart
 \resumeSubheading
       {Pashi Corporation}
@@ -138,11 +134,11 @@
         \resumeItem
         % {Pashi App} 
           {
-            Helped create a intuitive, draggable visual programming language that eases the design, simulation, and optimization of production lines using PostgreSQL and Golang
+            Helped create a visual programming language that eases the design, simulation, and optimization of production lines
           }
         \resumeItem
         % {Analytics App}
-          {Implemented from end to end using Go, HTML, CSS, and Javascript an analytics app that allows users to view the production line variables and key performace indicators in a spreadsheet-like table as well as a customizable graph.}
+          {Implemented an Analytics App that allows users to view the production line variables in a spreadsheet like formula as well as a customizable graph that can plot the variables. Created functionality for the user to define key performance indicators.}
       \resumeItemListEnd
 
       
@@ -153,16 +149,14 @@
       {May 2019 - Sep. 2019}
       \resumeItemListStart
       \resumeItem
-        {Tutored eight high school students Computer Science foundations through an interactive online format}
-      \resumeItem
         % {Intro to Python and Artificial Intelligence}
         {Introduced the foundations of the Python programming language and explored the use of graphical user interfaces using the TKinter library}
       \resumeItem
         % {Intro to Java Game Programming}
-        {Taught and demonstrated the fundamental concepts of object-oriented programming through Java Game Programming}
+        {Taught and demonstrated the basics of the Java programming language as well as various game design practices. }
       \resumeItem
         % {AP Java I}
-        {Aided high school students in preparing for the AP Computer Science Exam by reviewing foundational topics in Java}
+        {Aided high school students in preparing for the AP}
       \resumeItemListEnd
         
         %  \resumeSubheading
@@ -176,7 +170,7 @@
     \resumeSubHeadingListEnd
 
 
-\section{\textbf{ENGINEERING EXPERIENCE}}
+\section{Engineering Experience}
         \resumeSubHeadingListStart
         \resumeSubheading
              {Cornell Hyperloop}
@@ -184,56 +178,54 @@
              {Ithaca, NY}
              {Sep. 2019 - Present}
           \resumeItemListStart
-               \resumeItem{Prepare weekly subteam meetings to discuss progress and assign team members project responsibilities}
                \resumeItem
                % {Graphical User Interface}
-                 {Design and implement a graphical user interface to allow for human interaction with the Cornell Hyperloop pod during testing and competition, allowing users to monitor the state of the pod and receive live data from the pod sensors  }
+                 {Design and implement a graphical user interface to allow for human interaction with the Cornell Hyperloop pod during testing and competition. This allows users to monitor the state of the pod and receive live data from the pod sensors.  }
                \resumeItem
                % {Communications}
-                 {Create a communications protocol for exchanging information between the different modules on the Hyperloop pod, including the onboard, Odroid C2 computer, the multiple Arduino units, and the Hyperloop motors and sensors}
+                 {Create a communications protocol for exchanging information between the different modules on the Hyperloop pod, including the onboard, Odroid C2 computer, the multiple Arduino units, and the Hyperloop motors and sensors.}
              \resumeItemListEnd
             \resumeSubHeadingListEnd
 
 
         % \vspace{1pt}
         %-----------PROJECTS-----------------
-        \section{\textbf{PROJECTS}}
+        \section{Projects}
 
         \vspace{3pt}
         % \resumeSubItem{Marble Sorter}
         %   {Built a device that uses VEX\textsuperscript{\textregistered}  motors and light sensors as well as 3d printed parts that sorts glass marbles based on color.}
         \textbf{Critter World}
-        \vspace{-5pt}
+        \vspace{-7pt}
         \begin{itemize}
           \setlength\itemsep{-1pt}
-          \item Implemented a Java program to simulate artificial lifeforms on a hexagonal gridworld
+          \item Implemented a Java program to simulate artificial life and behaviors.
           \item Constructed an interpreted language to help create ``critters'' with different traits and behaviors
-          \item Design a graphical user interface to help users visualize and interact with the critter world
-          \item Create a Java Servlet to simulate a shared gridworld where users can import their individual critters 
+          \item Design a graphical user interface to help users visualize and interact with the critter world. 
         \end{itemize}
-        \vspace{-1pt}
+        \vspace{-5pt}
         
         \textbf{Pok\'emon Project} 
-        \vspace{-5pt}
+        \vspace{-7pt}
         \begin{itemize}
           \setlength\itemsep{-1pt}
           \item Created a Jupyter Notebook program that utilizes machine learning algorithms to predict the type of a Pok\'emon based on its base statistics (Attack, Defense, HP, Speed, etc.)
-          \item Used a Support Vector Machine and a Random Forest Classifier to create a model able to correctly classify the type approximately 26.8\% of the time
+          \item Used a Support Vector Machine and a Random Forest Classifier to create a model able to correctly classify the type approximately 26.8\% of the time.
         \end{itemize}
-        \vspace{-1pt}
+        \vspace{-5pt}
 
  \textbf{Chess Game AI}
- \vspace{-5pt}
+ \vspace{-7pt}
  \begin{itemize}
    \setlength\itemsep{-1pt}
-   \item Implemented a chess application using functional programming in OCaml and the Graphics GUI package to allow two human players to play the standard game of chess
+   \item Implemented a chess application using functional programming in OCaml and the Graphics GUI package to allow two human players to play the standard game of chess. 
    \item Extended this game with an AI that uses a minimax game tree search algorithm enhanced using alpha-beta pruning
  \end{itemize}
 
 
 
 %--------PROGRAMMING SKILLS------------
-\section{\textbf{SKILLS}}
+\section{Skills}
 
     \vspace{3pt} 
 
